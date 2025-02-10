@@ -182,13 +182,19 @@ Providing auto-configuration to reduce manual setup.
 Offering embedded servers (e.g., Tomcat, Jetty) for standalone applications.
 Reducing boilerplate code and easing dependency management.
 Being production-ready with built-in metrics, health checks, and externalized configuration.
+
 ### 22. What are key annotations in Spring Boot?
+
 Some of the key annotations include:
 
 @SpringBootApplication: Enables auto-configuration and component scanning.
+
 @RestController: Marks a class as a controller where every method returns a domain object rather than a view.
+
 @Service, @Repository, @Component: Stereotype annotations to indicate the role of a class.
+
 @Autowired: Enables automatic dependency injection.
+
 ### 23. How does Spring Boot handle database connections?
 Spring Boot simplifies database connectivity by:
 
